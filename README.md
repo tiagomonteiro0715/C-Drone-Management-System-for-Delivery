@@ -1,28 +1,26 @@
-# Sistema de Gestão de Drones para Entrega
+# C Drone Management System for Delivery
 
-**Repository Name:** `drone-delivery-system-aed`
+Final Project from the class "Algorithms and Data Structures"
 
-> Sistema de gestão de frota de drones para entrega de encomendas, desenvolvido em C com implementação de TADs (Tipos Abstratos de Dados).
+My final grade in this class was 17 out of 20
 
-Este projeto implementa um sistema de gestão de drones para entrega de encomendas, desenvolvido em C como parte de um trabalho final de Algoritmos e Estruturas de Dados (AED).
+This project implements a drone management system for package delivery, developed in C as part of a final project in Algorithms and Data Structures
 
-## 📋 Descrição
+## Description
 
-O sistema permite gerir uma frota de drones que podem ser utilizados para entregar encomendas. Os drones podem ser de dois tipos:
-- **Drones Básicos**: Drones individuais com capacidade de carga e alcance específicos
-- **Drones Coletivos**: Drones formados pela combinação de múltiplos drones básicos
+The system allows you to manage a fleet of drones that can be used to deliver packages. Drones can be of two types:
+- **Basic Drones**: Individual drones with specific payload and range
+- **Collective Drones**: Drones formed by the combination of multiple basic drones
 
-O sistema inclui funcionalidades para:
-- Criar e gerir drones (básicos e coletivos)
-- Criar e gerir encomendas
-- Despachar encomendas usando drones
-- Avançar o tempo do sistema
-- Listar drones e encomendas
-- Remover drones do sistema
+The system includes features for:
+- Creating and managing drones (basic and collective)
+- Creating and managing orders
+- Dispatching packages using drones
+- Advancing the system time
+- Listing drones and orders
+- Removing drones from the system
 
-## 🏗️ Arquitetura do Projeto
-
-### Estrutura de Diretórios
+## Arquitetura do Projeto
 
 ```
 TrabalhoFinalaed2/
@@ -47,146 +45,126 @@ TrabalhoFinalaed2/
 
 ### Componentes Principais
 
-#### Sistema (`sistema.c/h`)
-- Coordena todos os componentes do sistema
-- Gerencia drones, encomendas e bases
-- Controla o tempo do sistema
-- Fornece interface para operações principais
+#### System (`sistema.c/h`)
+- Coordinates all system components
+- Manages drones, orders, and bases
+- Controls system time
+- Provides an interface for core operations
 
 #### Drone (`drone.c/h`)
-- Implementa drones básicos e coletivos
-- Gerencia capacidade de carga, alcance e estado
-- Controla tempo de voo e manutenção
-- Suporta combinação de drones para formar coletivos
+- Deploys basic and collective drones
+- Manages payload, range, and status
+- Controls flight and maintenance time
+- Supports combining drones to form collectives
 
-#### Encomenda (`encomenda.c/h`)
-- Representa encomendas com peso e localização
-- Gerencia estado de entrega
-- Controla tempo de criação e entrega
+#### Order (`encomenda.c/h`)
+- Represents orders with weight and location
+- Manages delivery status
+- Controls creation and delivery time
 
-#### Base (`base.c/h`)
-- Representa bases de operação
-- Gerencia drones e encomendas locais
-- Coordena operações de despacho
+#### Foundation (`base.c/h`)
+- Represents operating bases
+- Manages drones and local orders
+- Coordinates dispatch operations
 
-#### Coordenadas (`coordenadas.c/h`)
-- Implementa sistema de coordenadas geográficas
-- Calcula distâncias entre pontos
+#### Coordinates (`coordenadas.c/h`)
+- Implements geographic coordinate system
+- Calculates distances between points
 
-## 🚀 Como Executar
+## How to Run
 
-### Pré-requisitos
-- Compilador GCC
-- Sistema Unix/Linux (ou WSL no Windows)
+### Prerequisites
+- GCC Compiler
+- Unix/Linux System (or WSL on Windows)
 
-### Compilação e Execução
+### Compiling and Running
 
-1. **Compilação automática:**
-   ```bash
-   ./run.sh
-   ```
-
-2. **Compilação manual:**
-   ```bash
-   gcc -o main *.c TADs/*/*.c -Wall -lm
-   ./main
-   ```
-
-## 🎮 Comandos Disponíveis
-
-O sistema utiliza um interpretador de comandos interativo. Os comandos disponíveis são:
-
-| Comando | Descrição | Sintaxe |
-|---------|-----------|---------|
-| `B` | Cria um novo drone básico | `B <carga> <alcance>` |
-| `C` | Cria um novo drone coletivo | `C <id1> <id2> ... <id6>` |
-| `D` | Despacha uma encomenda | `D <id_encomenda> <id_drone>` |
-| `E` | Cria uma nova encomenda | `E <peso> <latitude> <longitude>` |
-| `L` | Lista drones e encomendas | `L` |
-| `R` | Remove um drone | `R <id_drone>` |
-| `T` | Avança o tempo | `T <horas>` |
-| `?` | Mostra comandos disponíveis | `?` |
-| `.` | Finaliza o programa | `.` |
-
-### Exemplos de Uso
-
+1. **Automatic Compilation:**
 ```bash
-> B 100 50          # Cria drone básico com carga 100kg e alcance 50km
-> E 25 40.7128 -74.0060  # Cria encomenda de 25kg em Nova York
-> D 1000 0          # Despacha encomenda 1000 usando drone 0
-> T 2               # Avança o tempo em 2 horas
-> L                 # Lista todos os drones e encomendas
+./run.sh
 ```
 
-## 🧪 Testes
+2. **Manual Compilation:**
+```bash
+gcc -o main *.c TADs/*/*.c -Wall -lm
+./main
+   ```
 
-O projeto inclui dois conjuntos de testes:
+## Available Commands
 
-- **`tests/`**: Testes principais do sistema (T01-T12)
-- **`tests2/`**: Testes adicionais (T01-T11)
+The system uses an interactive command interpreter. The available commands are:
 
-Cada teste contém:
-- `input`: Arquivo de entrada com comandos
-- `output`: Arquivo de saída esperado
+| Command | Description | Syntax |
+|---------|----------|---------|
+| `B` | Creates a new basic drone | `B <payload> <range>` |
+| `C` | Creates a new collective drone | `C <id1> <id2> ... <id6>` |
+| `D` | Dispatches an order | `D <order_id> <drone_id>` |
+| `E` | Creates a new order | `E <weight> <latitude> <longitude>` |
+| `L` | Lists drones and orders | `L` |
+| `R` | Removes a drone | `R <drone_id>` |
+| `T` | Advances the time | `T <hours>` |
+| `?` | Show available commands | `?` |
+| `.` | End the program | `.` |
 
-### Executar Testes
+### Usage Examples
 
 ```bash
-# Executar um teste específico
+> B 100 50 # Create a basic drone with a 100kg payload and a 50km range
+> E 25 40.7128 -74.0060 # Create a 25kg order in New York
+> D 1000 0 # Dispatch order 1000 using drone 0
+> T 2 # Advance the time by 2 hours
+> L # List all drones and orders
+```
+
+## Tests
+
+The project includes two sets of tests:
+
+- **`tests/`**: Main system tests (T01-T12)
+- **`tests2/`**: Additional tests (T01-T11)
+
+Each test contains:
+- `input`: Input file with commands
+- `output`: Expected output file
+
+### Run Tests
+
+```bash
+# Run a specific test
 ./main < tests/T01/input > output.txt
 diff output.txt tests/T01/output
 ```
 
-## 📊 Estruturas de Dados
+## Data Structures
 
-### Tipos Abstratos de Dados (TADs)
+### Abstract Data Types (ADTs)
 
-O projeto implementa vários TADs fundamentais:
+The project implements several fundamental ADTs:
 
-- **Dicionário**: Associação chave-valor
-- **Fila**: Estrutura FIFO (First In, First Out)
-- **Iterador**: Navegação sobre coleções
-- **Pilha**: Estrutura LIFO (Last In, First Out)
-- **Ponto**: Representação de pontos 2D
-- **Sequência**: Coleção ordenada de elementos
+- **Dictionary**: Key-value association
+- **Queue**: FIFO (First In, First Out) structure
+- **Iterator**: Navigation over collections
+- **Stack**: LIFO (Last In, First Out) structure
+- **Point**: 2D point representation
+- **Sequence**: Ordered collection of elements
 
-### Implementações
+### Implementations
 
-- **Dicionário**: Implementado com vetor
-- **Fila**: Implementada com vetor
-- **Iterador**: Implementado com vetor
-- **Pilha**: Implementada com vetor
-- **Sequência**: Implementada com vetor e lista ligada
+- **Dictionary**: Implemented with array
+- **Queue**: Implemented with array
+- **Iterator**: Implemented with array
+- **Stack**: Implemented with array
+- **Sequence**: Implemented with array and list Chained
 
-## 🔧 Funcionalidades Avançadas
+## Contributions
 
-### Drones Coletivos
-- Combinação de até 6 drones básicos
-- Capacidade e alcance somados dos drones componentes
-- Gestão automática de estado coletivo
+This is an academic project developed as a Algorithms and data structures final project. 
 
-### Sistema de Tempo
-- Tempo simulado em horas
-- Controlo de tempo de voo e manutenção
-- Avanço temporal do sistema
+Tiago Mendes
 
-### Gestão de Estado
-- Estados de drones (disponível, em voo, em manutenção)
-- Estados de encomendas (pendente, em entrega, entregue)
-- Controlo de disponibilidade
+Tiago Monteiro
 
-## 📝 Notas de Implementação
+- GitHub: @tiagomonteiro0715
+- LinkedIn: [Tiago Monteiro](https://www.linkedin.com/in/tiago-monteiro-/)
 
-- **Memória**: Gestão manual de memória com funções de destruição
-- **Modularidade**: Código organizado em módulos independentes
-- **Documentação**: Comentários detalhados em português
-- **Validação**: Verificação de dados de entrada
-- **Tratamento de Erros**: Mensagens de erro informativas
-
-## 🤝 Contribuição
-
-Este é um projeto académico desenvolvido como trabalho final de AED. Para contribuições ou questões, contacte os autores.
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins académicos no âmbito da disciplina de Algoritmos e Estruturas de Dados. 
+For contributions or questions, please contact the authors
