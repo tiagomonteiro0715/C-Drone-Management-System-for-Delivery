@@ -1,0 +1,14 @@
+> O novo tempo e' 60
+> Adicionado drone(cat=basico, id=1, cap=0, alc=0/0, voo=0, manut=0)
+> Adicionada encomenda(id=1001, peso=0, coord=(0,0), cria=60, saida=0, entrega=0)
+> O novo tempo e' 70
+> Encomenda 1001 enviada pelo drone 1
+> drone(cat=basico, id=1, cap=0, alc=0/0, voo=0, manut=3)
+encomenda(id=1001, peso=0, coord=(0,0), cria=60, saida=70, entrega=70)
+> O novo tempo e' 72
+> drone(cat=basico, id=1, cap=0, alc=0/0, voo=0, manut=1)
+encomenda(id=1001, peso=0, coord=(0,0), cria=60, saida=70, entrega=70)
+> O novo tempo e' 73
+> drone(cat=basico, id=1, cap=0, alc=0/0, voo=0, manut=0)
+encomenda(id=1001, peso=0, coord=(0,0), cria=60, saida=70, entrega=70)
+> Obrigado. Volte sempre!

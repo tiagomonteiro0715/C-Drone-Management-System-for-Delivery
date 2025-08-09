@@ -1,0 +1,15 @@
+> Adicionado drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=3, cap=30, alc=300/300, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=4, cap=40, alc=400/400, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=5, cap=50, alc=500/500, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=6, cap=60, alc=600/600, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=7, cap=70, alc=700/700, voo=0, manut=0)
+> Removido o drone 3
+> Removido o drone 4
+> drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=0)
+drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=0)
+drone(cat=basico, id=5, cap=50, alc=500/500, voo=0, manut=0)
+drone(cat=basico, id=6, cap=60, alc=600/600, voo=0, manut=0)
+drone(cat=basico, id=7, cap=70, alc=700/700, voo=0, manut=0)
+> Obrigado. Volte sempre!

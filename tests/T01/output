@@ -1,0 +1,11 @@
+> Menu:
+  B - cria um novo drone Basico e regista-o na base
+  C - cria um novo drone Coletivo e regista-o na base
+  D - Despacha uma encomenda usando um drone
+  E - cria uma nova Encomenda
+  L - Lista drones e encomendas
+  R - Remove drone da base e destroi-o
+  T - avança o Tempo um dado numero de horas
+  ? - mostra os comandos disponíveis
+  . - finaliza a execução do programa
+> Obrigado. Volte sempre!

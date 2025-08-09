@@ -1,0 +1,10 @@
+> Dados invalidos
+> Dados invalidos
+> Dados invalidos
+> Dados invalidos
+> Dados invalidos
+> Adicionada encomenda(id=1001, peso=0, coord=(0,0), cria=0, saida=0, entrega=0)
+> Adicionada encomenda(id=1002, peso=99999, coord=(99999,99999), cria=0, saida=0, entrega=0)
+> encomenda(id=1001, peso=0, coord=(0,0), cria=0, saida=0, entrega=0)
+encomenda(id=1002, peso=99999, coord=(99999,99999), cria=0, saida=0, entrega=0)
+> Obrigado. Volte sempre!

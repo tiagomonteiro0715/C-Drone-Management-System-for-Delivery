@@ -1,0 +1,13 @@
+> O novo tempo e' 50
+> Adicionado drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=0)
+> Adicionado drone(cat=coletivo, id=3, cap=30, alc=100/100, voo=0, manut=0, elems=(1 2))
+> Adicionada encomenda(id=1001, peso=31, coord=(20,-20), cria=50, saida=0, entrega=0)
+> drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=0)
+drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=0)
+drone(cat=coletivo, id=3, cap=30, alc=100/100, voo=0, manut=0, elems=(1 2))
+encomenda(id=1001, peso=31, coord=(20,-20), cria=50, saida=0, entrega=0)
+> Nao pode fazer isso
+> Nao pode fazer isso
+> Nao pode fazer isso
+> Obrigado. Volte sempre!

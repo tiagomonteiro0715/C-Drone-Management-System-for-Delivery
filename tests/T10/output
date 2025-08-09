@@ -1,0 +1,18 @@
+> Dados invalidos
+> Dados invalidos
+> Nao pode fazer isso
+> Adicionado drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=0)
+> Nao pode fazer isso
+> Adicionado drone(cat=coletivo, id=3, cap=30, alc=100/100, voo=0, manut=0, elems=(1 2))
+> Adicionado drone(cat=coletivo, id=4, cap=0, alc=0/0, voo=0, manut=0, elems=())
+> Adicionado drone(cat=basico, id=5, cap=30, alc=300/300, voo=0, manut=0)
+> Adicionado drone(cat=coletivo, id=6, cap=30, alc=300/300, voo=0, manut=0, elems=(5))
+> Nao pode fazer isso
+> drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=0)
+drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=0)
+drone(cat=coletivo, id=3, cap=30, alc=100/100, voo=0, manut=0, elems=(1 2))
+drone(cat=coletivo, id=4, cap=0, alc=0/0, voo=0, manut=0, elems=())
+drone(cat=basico, id=5, cap=30, alc=300/300, voo=0, manut=0)
+drone(cat=coletivo, id=6, cap=30, alc=300/300, voo=0, manut=0, elems=(5))
+> Obrigado. Volte sempre!

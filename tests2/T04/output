@@ -1,0 +1,13 @@
+> Adicionado drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=0)
+> Adicionado drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=0)
+> Adicionado drone(cat=coletivo, id=3, cap=30, alc=100/100, voo=0, manut=0, elems=(1 2))
+> Removido o drone 3
+> drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=3)
+drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=3)
+> O novo tempo e' 2
+> drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=1)
+drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=1)
+> O novo tempo e' 4
+> drone(cat=basico, id=1, cap=10, alc=100/100, voo=0, manut=0)
+drone(cat=basico, id=2, cap=20, alc=200/200, voo=0, manut=0)
+> Obrigado. Volte sempre!
