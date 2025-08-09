@@ -6,7 +6,7 @@ My final grade in this class was 17 out of 20
 
 This project implements a drone management system for package delivery, developed in C as part of a final project in Algorithms and Data Structures
 
-## 📋 Description
+## Description
 
 The system allows you to manage a fleet of drones that can be used to deliver packages. Drones can be of two types:
 - **Basic Drones**: Individual drones with specific payload and range
@@ -20,7 +20,7 @@ The system includes features for:
 - Listing drones and orders
 - Removing drones from the system
 
-## 🏗️ Arquitetura do Projeto
+## Arquitetura do Projeto
 
 ### Estrutura de Diretórios
 
@@ -73,7 +73,7 @@ TrabalhoFinalaed2/
 - Implements geographic coordinate system
 - Calculates distances between points
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - GCC Compiler
@@ -137,7 +137,7 @@ Each test contains:
 diff output.txt tests/T01/output
 ```
 
-## 📊 Data Structures
+## Data Structures
 
 ### Abstract Data Types (ADTs)
 
@@ -158,7 +158,7 @@ The project implements several fundamental ADTs:
 - **Stack**: Implemented with array
 - **Sequence**: Implemented with array and list Chained
 
-## 🔧 Advanced Features
+## Advanced Features
 
 ### Collective Drones
 - Combination of up to 6 basic drones
@@ -175,17 +175,11 @@ The project implements several fundamental ADTs:
 - Order status (pending, in delivery, delivered)
 - Availability control
 
-## 📝 Implementation Notes
-
-- **Memory**: Manual memory management with destruction functions
-- **Modularity**: Code organized into independent modules
-- **Documentation**: Detailed comments in Portuguese
-- **Validation**: Input data verification
-- **Error Handling**: Informative error messages
-
 ## Contribution
 
 This is an academic project developed as a Algorithms and data structures final project. 
+
+Tiago Mendes
 
 Tiago Monteiro
 
