@@ -118,7 +118,7 @@ The system uses an interactive command interpreter. The available commands are:
 > L # List all drones and orders
 ```
 
-## 🧪 Tests
+## Tests
 
 The project includes two sets of tests:
 
