@@ -160,11 +160,8 @@ The project implements several fundamental ADTs:
 
 This is an academic project developed as a Algorithms and data structures final project. 
 
-Tiago Mendes
-
-Tiago Monteiro
-
-- GitHub: @tiagomonteiro0715
-- LinkedIn: [Tiago Monteiro](https://www.linkedin.com/in/tiago-monteiro-/)
+- Tiago Mendes
+- [Tiago Monteiro](https://www.linkedin.com/in/tiago-monteiro-/)
 
 For contributions or questions, please contact the authors
+
